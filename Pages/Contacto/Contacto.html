@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../../CSS/Style.css" />
+    <title>Contacto</title>
+  </head>
+
+  <body>
+    <div class="gridcontacto">
+      <div class="headercontacto">
+        <nav>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/Pages/Trabajos/Trabajos.html">Trabajos</a></li>
+            <li>
+              <a href="/Pages/Experiencia/Experiencia.html">Experiencia</a>
+            </li>
+            <li>
+              <a href="/Pages/Curriculumvitae/Curriculumvitae.html"
+                >Curriculum vitae</a
+              >
+            </li>
+            <li><a href="/Pages/Contacto/Contacto.html"> Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Aqui comienza el formulario -->
+      <div class="titulocontacto">
+        <h1>Contacto</h1>
+      </div>
+      <div class="formulario">
+        <form action="">
+          <fieldset>
+            <legend>Mi formuluario</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" />
+            <br />
+
+            <label for="apellido"> Apellido:</label>
+            <input type="text" name="apellido" id="apellido" />
+            <br />
+            <br />
+
+            <h2>Seleccione por favor motivo de su contacto</h2>
+            Cliente/interesado
+            <input type="radio" name="tipo" value="Cliente/interesado" />
+            Proveedor
+            <input type="radio" name="tipo" value="Provedor" />
+            <br />
+            <br />
+            ¿Quiere que lo llame?
+            <input type="checkbox" name="Si" value="1" />
+            <br />
+            <br />Cómo me conoció?
+            <select name="Talles" id="talles">
+              <option value="Redes sociales">Redes sociales</option>
+              <option value="Recomendación">Recomendación</option>
+              <option value="Googleando">Googleando</option>
+            </select>
+            <br />
+            <br />
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Dejenos un mensaje aquí y nos comunicaremos a la brevedad"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+
+            <input type="submit" value="Enviar formulario" />
+            <input type="reset" value="Borrar formulario" />
+          </fieldset>
+        </form>
+      </div>
+      <!-- Aca termina el formulario -->
+      <div class="footercontacto">
+        <footer>
+          <ul>
+            <li>Buenos Aires - Argentina</li>
+            <li>Mail: remanuelmora@gmail.com</li>
+            <li>Please contact for english portfolio and resume</li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
