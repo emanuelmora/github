@@ -1,3 +1,5 @@
+$ancho: 900px;
+
 .gridcurriculumvitae {
   display: grid;
   grid-template-columns: auto auto;
@@ -14,7 +16,7 @@
 
 .imagencv {
   grid-column: 2 / 5;
-  width: 90%;
+  width: $ancho/4;
   max-width: 900px;
   margin: 0 auto;
 }
