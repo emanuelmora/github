@@ -1,0 +1,194 @@
+@charset "UTF-8";
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  background-color: #fffbf5;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  min-height: 100vh;
+}
+
+.grid-container div {
+  background-color: #b3a288;
+  text-align: center;
+  color: aliceblue;
+  border: 1px solid black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* h1 {
+  color: #4f6e8b;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 3rem;
+}
+
+* h1 h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #dbeeff;
+}
+
+* h1 h2 table {
+  border: 3px solid #dee760;
+}
+
+* h1 h2 table img {
+  border-radius: 50px;
+}
+
+* h1 h2 table img footer {
+  color: #b3a288;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.gridcontacto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  background-color: #cab99e;
+}
+
+.headercontacto {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1 / 5;
+}
+
+.titulocontacto {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+
+.formulario {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+
+.footercontacto {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+
+/*Estilo para títulos*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Estilos en class*/
+.backgroundcolor {
+  background-color: #c79fa7;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1 / 5;
+}
+
+/*Grid para Contacto*/
+/*Grid para Curriculum vitae*/
+.gridcurriculumvitae {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  background-color: #cab99e;
+}
+
+.headercurriculumvitae {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1 /5;
+}
+
+.titulocurriculumvitae {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+
+.imagencv {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.footercurriculumvitae {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+
+/*Grid para Trabajos*/
+.gridtrabajos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  background-color: #cab99e;
+}
+
+.headertrabajos {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1 /5;
+}
+
+.titulotrabajos {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+
+.videotrabajos {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+.footertrabajos {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 / 5;
+}
+/*# sourceMappingURL=Style.css.map */

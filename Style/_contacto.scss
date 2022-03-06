@@ -1,0 +1,22 @@
+.gridcontacto {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  background-color: rgb(202, 185, 158);
+}
+
+.headercontacto {
+  grid-row: 1 / 5;
+}
+
+.titulocontacto {
+  grid-column: 2 / 5;
+}
+
+.formulario {
+  grid-column: 2 / 5;
+}
+
+.footercontacto {
+  grid-column: 2 / 5;
+}

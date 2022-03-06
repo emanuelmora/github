@@ -1,0 +1,60 @@
+@import "index";
+@import "general";
+@import "contacto";
+@import "curriculumvitae";
+
+/*Estilo para títulos*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Estilos en class*/
+.backgroundcolor {
+  background-color: rgb(199, 159, 167);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.header {
+  grid-row: 1 / 5;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*Grid para Trabajos*/
+.gridtrabajos {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  background-color: rgb(202, 185, 158);
+}
+
+.headertrabajos {
+  grid-row: 1 /5;
+}
+
+.titulotrabajos {
+  grid-column: 2 / 5;
+}
+
+.videotrabajos {
+  grid-column: 2 / 5;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+.footertrabajos {
+  grid-column: 2 / 5;
+}
